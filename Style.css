@@ -87,12 +87,52 @@ h1, h2, h3, h4, h5, h6
 .banner__main
 {
     text-align: center;
-    color: var(--primaary_color);
+    color: var(--dark_blue);
 }
 .banner__main > h1
 {
     font-size: 50px ;
 }
+
+/* About section */
+.About
+{
+    background-color: var(--heading_blue);
+    height: 40vh;
+    border-top: 20px solid #4BA8DA;
+}
+.About__main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.About__main__profile,.About__main__text
+{
+    flex-basis: 50%;
+}
+.About__main__text
+{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 15px 10px 20px #4ba8da6c;
+}
+.About__main__text >h1
+{
+    padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 1024px)
