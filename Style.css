@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6
 .banner
 {
     height: 80vh;
-    background-image: url(accets/banner.png);
+    background-image: url(accets/Banner.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +87,10 @@ h1, h2, h3, h4, h5, h6
 .banner__main
 {
     text-align: center;
-    color: var(--dark_blue);
+    color: var(--primaary_color);
+    background-color: #eefbfb41;
+    padding: 25px;
+    border-radius: 20px;
 }
 .banner__main > h1
 {
@@ -98,7 +101,7 @@ h1, h2, h3, h4, h5, h6
 .About
 {
     background-color: var(--heading_blue);
-    height: 40vh;
+    height: 60vh;
     border-top: 20px solid #4BA8DA;
 }
 .About__main
@@ -106,7 +109,7 @@ h1, h2, h3, h4, h5, h6
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    height: 100%;
 }
 .About__main__profile,.About__main__text
 {
@@ -124,6 +127,148 @@ h1, h2, h3, h4, h5, h6
     padding-bottom: 25px;
 }
 
+/* Skill secton break */
+.skills
+{
+    background-color: #afe2fd;
+    padding: 25px 0;
+    border-top: solid 2px #D2ECF4;
+    border-bottom: solid 2px #D2ECF4;
+}
+.skills > .skills__main
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills > .skills__main > div
+{
+    text-align: center;
+    flex-basis: 33.33%;
+}
+.skills > .skills__main > div > h3
+{
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 15px 10px 20px #4ba8da6c;
+}
+.skill__details
+{
+    background-color: var(--heading_blue);
+    padding: 50px 0;
+}
+.skill__details > div > ul
+{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill__details > div > ul > li
+{
+    list-style: none;
+    flex-basis: 45%;
+
+}
+.skill__detals_main
+{
+    background-color: #fff;
+    box-shadow: 15px 10px 20px #4ba8da6c;
+    border-radius: 50px;
+
+}
+.skill__details--container
+{
+    margin: 10px 0;
+    background-color: var(--heading_blue);
+    color: var(--dark_blue);
+    text-align: center;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 10px 0;
+    border: solid 2px var(--light_blue);
+    position: relative;
+    box-shadow: 0 0 6px #4ba8da6c;
+}
+.skill__details--container >span > h4
+{
+    z-index: 10;
+    position: relative;
+}
+.html.skill__details--container >span > span::after
+{
+    content: "   ";
+    background-color: var(--light_blue);
+    width: 95%;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+.BootStrap.skill__details--container >span > span::after
+{
+    content: "   ";
+    background-color: var(--light_blue);
+    width: 70%;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+.JavaScript.skill__details--container >span > span::after
+{
+    content: "   ";
+    background-color: var(--light_blue);
+    width: 75%;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+.React.skill__details--container >span > span::after
+{
+    content: "   ";
+    background-color: var(--light_blue);
+    width: 25%;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+.PHP.skill__details--container >span > span::after
+{
+    content: "   ";
+    background-color: var(--light_blue);
+    width: 30%;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+.photoshop.skill__details--container >span > span::after
+{
+    content: "   ";
+    background-color: var(--light_blue);
+    width: 80%;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+.XD.skill__details--container >span > span::after
+{
+    content: "   ";
+    background-color: var(--light_blue);
+    width: 70%;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
 
 
 
@@ -154,6 +299,23 @@ h1, h2, h3, h4, h5, h6
     {
         flex-basis: 100%;
     }
+    .About__main
+    {
+        flex-wrap: wrap;
+    }
+    .About
+    {
+        height: auto;
+        padding: 25px 0;
+    }
+    .About__main__profile, .About__main__text
+    {
+        flex-basis: 100%;
+    }
+    .skills > .skills__main > div > h3
+    {
+        width: 60%;
+    }
     
 }
 @media only screen and (max-width:768px)
@@ -161,5 +323,22 @@ h1, h2, h3, h4, h5, h6
     .header__main__nav > ul > li > a
     {
         padding: 0 5px;
+    }
+    .skill__details > div > ul > li
+    {
+        flex-basis: 100%;
+    }
+    .skills > .skills__main > div
+    {
+        flex-basis: 50%;
+        margin: 25px 0;
+    }.skills > .skills__main
+    {
+        justify-content: center;
+    }
+    .skills > .skills__main > div > h3
+    {
+        width: auto;
+        margin: 0 5px;
     }
 }
