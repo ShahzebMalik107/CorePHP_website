@@ -9,13 +9,16 @@
 </head>
 
 <body>
+    <!-- header -->
     <?php require_once("header.php") ?>
+    <!-- Banner -->
     <section id="#home" class="banner">
         <div class="banner__main container">
             <h1>Shahzeb Malik</h1>
             <h2>Web Problem Solver</h2>
         </div>
     </section>
+    <!-- About -->
     <section class="About" id="About">
         <div class="About__main container">
             <div class="About__main__profile">
@@ -27,6 +30,7 @@
             </div>
         </div>
     </section>
+    <!-- Skills Section break-->
     <section class="skills linebeak" id="Skills">
         <div class="skills__main container">
 
@@ -41,6 +45,7 @@
             </div>
         </div>
     </section>
+    <!-- Section -->
     <section class="skill__details">
         <div class="container">
             <ul class=" skill__detals_main">
@@ -92,6 +97,45 @@
                         <span></span>
                     </span>
                 </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Work section break -->
+    <section class="skills linebeak" id="Skills">
+        <div class="skills__main work container">
+            <div>
+                <h3>Work Experience</h3>
+            </div>
+        </div>
+    </section>
+    <!-- Work and projects -->
+    <section class="work">
+        <div class="work__main container">
+            <ul>
+                <li>
+                    <div class="work__main__inner">
+                        <div class="work__main__inner__title"> <a href="https://alnoorjewellers.pk/" target="_blank" rel="noopener noreferrer">Al-Noor Jewellers</a></div>
+                        <img src="accets/work imaes/Al-Noor-Jewellers.jpeg" alt="al noor">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="work__main__inner">
+                        <div class="work__main__inner__title"> <a href="https://alnoorjewellers.pk/" target="_blank" rel="noopener noreferrer">Al-Noor Jewellers</a></div>
+                        <img src="accets/work imaes/Al-Noor-Jewellers.jpeg" alt="al noor">
+
+                    </div>
+                </li>
+
+                <li>
+                    <div class="work__main__inner">
+                        <div class="work__main__inner__title"> <a href="https://alnoorjewellers.pk/" target="_blank" rel="noopener noreferrer">Al-Noor Jewellers</a></div>
+                        <img src="accets/work imaes/Al-Noor-Jewellers.jpeg" alt="al noor">
+
+                    </div>
+                </li>
+
+
             </ul>
         </div>
     </section>
