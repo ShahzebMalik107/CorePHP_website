@@ -22,7 +22,8 @@
     <section class="About" id="About">
         <div class="About__main container">
             <div class="About__main__profile">
-                &ensp;
+                <img src="accets/profile-images/Shahzeb_Malik.jpg" alt="Shahzeb Maik">
+                <img class="chover" src="accets/profile-images/shahzeb_cartoon.jpg" alt="SCF">
             </div>
             <div class="About__main__text">
                 <h1>About Me</h1>
