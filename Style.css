@@ -55,6 +55,9 @@ html
 {
     flex-basis: 50%;
 }
+.header__main__Logo > a > img {
+    height: 50px;
+}
 .header__main__nav
 {
     flex-basis: 50%;
@@ -134,8 +137,11 @@ html
     object-position: top;
     transition: .5s;
     mask: url(accets/profile-images/profile\ frame.svg);
+    -webkit-mask: url(accets/profile-images/profile\ frame.svg);
     mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
     mask-position: center;
+    -webkit-mask-position: center;
     /* mask-size: 80%; */
 }
 
@@ -334,6 +340,7 @@ html
     box-shadow: 15px 10px 20px #4ba8da6c;
     border: solid 1px #afe2fd;  
     border-radius: 25px;
+    margin: 25px 0;
 }
 
 .work__main__inner > .work__main__inner__title
@@ -344,7 +351,7 @@ html
     padding: 30px 0;
     width: 100%;
     z-index: 100;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     box-shadow: var(--shadow);
 
 }
@@ -502,6 +509,10 @@ html
     {
         flex-basis: 40%;
         margin: 25px auto;
+    }
+    .About__main__profile > img,.About__main__profile > .chover
+    {
+        width: 100%;
     }
 }
 

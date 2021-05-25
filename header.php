@@ -21,7 +21,9 @@
     <header class="header">
         <div class="container header__main">
             <div class="header__main__Logo">
-                <h1>Logo</h1>
+                <a href="#home">
+                    <img src="accets/logo.png" alt="" srcset="">
+                </a>
             </div>
             <div class="header__main__nav">
                 <ul>
